@@ -1,0 +1,144 @@
+{
+  "synthetic": true,
+  "encoding": "UTF-8",
+  "tables": {
+    "formulations": {
+      "count": 80,
+      "fields": [
+        "formulation_id",
+        "material",
+        "predicted_strength",
+        "suggested_at"
+      ],
+      "primary_key": [
+        "formulation_id"
+      ],
+      "sha256": "81ef5c68fe57007e687f161d55f8e8b3b789305d1123556ed343a3f94a19cf28"
+    },
+    "lots": {
+      "count": 160,
+      "fields": [
+        "lot_id",
+        "formulation_id",
+        "prepared_at",
+        "status",
+        "process_window"
+      ],
+      "primary_key": [
+        "lot_id"
+      ],
+      "sha256": "8393430b874be6b81206ad609b04487edc9cb197a6181abd4e72f5a988d5f6a2"
+    },
+    "aliquots": {
+      "count": 300,
+      "fields": [
+        "aliquot_id",
+        "lot_id",
+        "remaining"
+      ],
+      "primary_key": [
+        "aliquot_id"
+      ],
+      "sha256": "6eebeb596432aab428ad698e0ff2296e14264122a363bd131bd93ee1b3ad90f5"
+    },
+    "measurements": {
+      "count": 420,
+      "fields": [
+        "measurement_id",
+        "aliquot_id",
+        "instrument_id",
+        "value",
+        "status",
+        "measured_at",
+        "calibration_id"
+      ],
+      "primary_key": [
+        "measurement_id"
+      ],
+      "sha256": "b1223635c23a547980f423bb6c77e635f95b6b191462c63b75d23759b8e36e25"
+    },
+    "calibrations": {
+      "count": 5,
+      "fields": [
+        "calibration_id",
+        "instrument_id",
+        "issued_at",
+        "effective_from",
+        "effective_to",
+        "status",
+        "withdrawn_at"
+      ],
+      "primary_key": [
+        "calibration_id"
+      ],
+      "sha256": "fa90bb207978018414af65bd59d6b95f41ba3233abc5d7605985249a5c95efe2"
+    },
+    "sample_stock": {
+      "count": 80,
+      "fields": [
+        "stock_id",
+        "formulation_id",
+        "quantity"
+      ],
+      "primary_key": [
+        "stock_id"
+      ],
+      "sha256": "84fe0ae303789feaa4d92aba81ceca05dbd81c13f48eea1fba7fb072efa0073f"
+    },
+    "confirmed_runs": {
+      "count": 1,
+      "fields": [
+        "confirm_id",
+        "formulation_id",
+        "instrument_id",
+        "start",
+        "end",
+        "aliquot_count"
+      ],
+      "primary_key": [
+        "confirm_id"
+      ],
+      "sha256": "58f3a86513ebd61e91eeca41fdaa6fd79e5bd82ba62bf36a6cea99e060e60f67"
+    },
+    "pilot_terms": {
+      "count": 2,
+      "fields": [
+        "term_id",
+        "material",
+        "minimum_performance",
+        "max_variance",
+        "required_safety",
+        "material_license"
+      ],
+      "primary_key": [
+        "term_id"
+      ],
+      "sha256": "2314d6e4bcd211fc264d987552b976f49802cfaa2d422e0c3defbc7725961792"
+    },
+    "safety": {
+      "count": 80,
+      "fields": [
+        "safety_id",
+        "formulation_id",
+        "passed",
+        "checked_at"
+      ],
+      "primary_key": [
+        "safety_id"
+      ],
+      "sha256": "6c133149ac48b8d0f19aa06f33f251e1b1cd9d5059131cc1f580aec0d730c000"
+    },
+    "licences": {
+      "count": 2,
+      "fields": [
+        "licence_id",
+        "material",
+        "valid_to"
+      ],
+      "primary_key": [
+        "licence_id"
+      ],
+      "sha256": "72cce635e48307ee4c3c25abe7f21fb383b1732fd6eacb86cb407684cd3d67de"
+    }
+  }
+}

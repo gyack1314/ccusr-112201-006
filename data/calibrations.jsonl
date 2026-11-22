@@ -1,0 +1,5 @@
+{"calibration_id":"CAL0","instrument_id":"I0","issued_at":"2026-01-01T09:00:00+08:00","effective_from":"2026-01-01T09:00:00+08:00","effective_to":"2026-07-20T09:00:00+08:00","status":"valid","withdrawn_at":null}
+{"calibration_id":"CAL1","instrument_id":"I1","issued_at":"2026-01-01T09:00:00+08:00","effective_from":"2026-01-01T09:00:00+08:00","effective_to":"2026-07-20T09:00:00+08:00","status":"valid","withdrawn_at":null}
+{"calibration_id":"CAL2","instrument_id":"I2","issued_at":"2026-01-01T09:00:00+08:00","effective_from":"2026-01-01T09:00:00+08:00","effective_to":"2026-07-20T09:00:00+08:00","status":"withdrawn","withdrawn_at":"2026-05-01T09:00:00+08:00"}
+{"calibration_id":"CAL3","instrument_id":"I3","issued_at":"2026-01-01T09:00:00+08:00","effective_from":"2026-01-01T09:00:00+08:00","effective_to":"2026-07-20T09:00:00+08:00","status":"valid","withdrawn_at":null}
+{"calibration_id":"CAL4","instrument_id":"I4","issued_at":"2026-01-01T09:00:00+08:00","effective_from":"2026-01-01T09:00:00+08:00","effective_to":"2026-07-20T09:00:00+08:00","status":"valid","withdrawn_at":null}
