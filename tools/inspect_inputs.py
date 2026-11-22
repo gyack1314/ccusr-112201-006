@@ -1,4 +1,4 @@
-"""Read-only integrity check for synthetic input files."""
+"""只读核对本地合成资料的完整性。"""
 from pathlib import Path
 import hashlib
 import json

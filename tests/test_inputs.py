@@ -1,4 +1,4 @@
-"""Existing tests validate input integrity, not the undeveloped application."""
+"""现有检查只验证资料完整性。"""
 from pathlib import Path
 import json
 import unittest

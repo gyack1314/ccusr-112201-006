@@ -1,1 +1,1 @@
-"""Synthetic input utilities."""
+"""本地合成资料检查工具。"""
